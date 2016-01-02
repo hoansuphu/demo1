@@ -9,8 +9,8 @@ public class Main1 {
 		System.out.println("Sum 02 number 1 & 2: " + Calculator.sum(1, 2));
 		System.out.println("Subtract 1 from 2: " + Calculator.deduct(1, 2));
 		
-		Converter sgdConverter = new ConverterSGD(15000);
-		System.out.println("1000 SGD equals to: " + sgdConverter.convert(1000));
+		Converter sgdConverter = new ConverterUSD(15000);
+		System.out.println("1000 USD equals to: " + sgdConverter.convert(1000));
 	}
 
 }
