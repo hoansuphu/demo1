@@ -8,7 +8,7 @@ public abstract class Converter {
 		this.rate = rate;
 	}
 	
-	public abstract float convert(int amount);
+	public abstract double convert(int amount);
 
 	public float getRate() {
 		return rate;
